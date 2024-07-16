@@ -88,11 +88,11 @@ const Header = () => {
                   <button className="text-base text-gray-600 py-2 mx-8 flex group-hover:text-pink-600 font-semibold">
                     Travelers
                   </button>
-                  <ul className="absolute hidden group-hover:block bg-slate-300 py-2 w-40 top-0 rounded-lg right-60 lg:right-0 lg:top-full lg:w-fit">
+                  <ul className="ml-3 lg:absolute lg:hidden lg:group-hover:block bg-slate-300 -mt-2 lg:py-2 w-40 top-0 rounded-lg lg:right-0 lg:top-full lg:w-fit">
                     <li>
                       <Link
                         href="#page1"
-                        className="block text-gray-600 mx-8 py-2 hover:text-pink-600"
+                        className="block text-gray-600 mx-8 lg:py-2 hover:text-pink-600"
                       >
                         Dubai
                       </Link>
@@ -100,7 +100,7 @@ const Header = () => {
                     <li>
                       <Link
                         href="#page2"
-                        className="block text-gray-600 mx-8 py-2 hover:text-pink-600"
+                        className="block text-gray-600 mx-8 lg:py-2 hover:text-pink-600"
                       >
                         Turki
                       </Link>
@@ -108,7 +108,7 @@ const Header = () => {
                     <li>
                       <Link
                         href="#page3"
-                        className="block text-gray-600 mx-8 py-2 hover:text-pink-600"
+                        className="block text-gray-600 mx-8 lg:py-2 hover:text-pink-600"
                       >
                         Australia
                       </Link>
@@ -117,35 +117,36 @@ const Header = () => {
                 </li>
                 <li className="group relative">
                   <button className="text-base text-gray-600 py-2 mx-8 flex group-hover:text-pink-600 font-semibold">
-                    Products
+                    Travelers
                   </button>
-                  <ul className="absolute hidden group-hover:block bg-slate-300 py-2 w-40 top-0 rounded-lg right-60 lg:right-0 lg:top-full lg:w-fit">
+                  <ul className="ml-3 lg:absolute lg:hidden lg:group-hover:block bg-slate-300 -mt-2 lg:py-2 w-40 top-0 rounded-lg lg:right-0 lg:top-full lg:w-fit">
                     <li>
                       <Link
                         href="#page1"
-                        className="block text-gray-600 mx-8 py-2 hover:text-pink-600"
+                        className="block text-gray-600 mx-8 lg:py-2 hover:text-pink-600"
                       >
-                        Homestay atas
+                        Dubai
                       </Link>
                     </li>
                     <li>
                       <Link
                         href="#page2"
-                        className="block text-gray-600 mx-8 py-2 hover:text-pink-600"
+                        className="block text-gray-600 mx-8 lg:py-2 hover:text-pink-600"
                       >
-                        Homestay Tengah
+                        Turki
                       </Link>
                     </li>
                     <li>
                       <Link
                         href="#page3"
-                        className="block text-gray-600 mx-8 py-2 hover:text-pink-600"
+                        className="block text-gray-600 mx-8 lg:py-2 hover:text-pink-600"
                       >
-                        Homestay Bawah
+                        Australia
                       </Link>
                     </li>
                   </ul>
                 </li>
+
                 <li className="group">
                   <Link
                     href="#"
