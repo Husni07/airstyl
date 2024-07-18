@@ -3,11 +3,11 @@ import Image from "next/image";
 import Link from "next/link";
 const Property = () => {
   return (
-    <section id="portfolio" className="pt-36">
+    <section id="portfolio">
       <div className="container">
-        <div className="w-full px-4">
-          <div className="max-w-xl mx-auto text-center mb-16">
-            <h2 className="font-bold text-purple-400 text-3xl mb-4 sm:text-4xl">
+        <div className="md:grid md:grid-cols-2 gap-8 items-center lg:mt-24 py-8 px-4 xl:gap-16 sm:py-16">
+          <div className="md:mt-0 text-left flex flex-col h-full">
+            <h2 className="font-bold italic text-purple-400 text-3xl lg:text-4xl mb-4 sm:text-4xl">
               Semua Properti
             </h2>
             <p className="font-medium text-md text-secondary md:text-lg">
@@ -33,7 +33,9 @@ const Property = () => {
               </Link>
             </div>
             <div className="px-5 py-3">
-              <h3 className="text-gray-700 uppercase font-semibold">Homestay P</h3>
+              <h3 className="text-gray-700 uppercase font-semibold">
+                Homestay P
+              </h3>
               <span className="text-gray-500 mt-2">$64,000 USD</span>
             </div>
           </div>
@@ -54,7 +56,9 @@ const Property = () => {
               </Link>
             </div>
             <div className="px-5 py-3">
-              <h3 className="text-gray-700 uppercase font-semibold">Homestay P</h3>
+              <h3 className="text-gray-700 uppercase font-semibold">
+                Homestay P
+              </h3>
               <span className="text-gray-500 mt-2">$64,000 USD</span>
             </div>
           </div>
@@ -75,7 +79,9 @@ const Property = () => {
               </Link>
             </div>
             <div className="px-5 py-3">
-              <h3 className="text-gray-700 uppercase font-semibold">Man Room</h3>
+              <h3 className="text-gray-700 uppercase font-semibold">
+                Man Room
+              </h3>
               <span className="text-gray-500 mt-2">$64,000 USD</span>
             </div>
           </div>
@@ -117,7 +123,9 @@ const Property = () => {
               </Link>
             </div>
             <div className="px-5 py-3">
-              <h3 className="text-gray-700 uppercase font-semibold">woman Room</h3>
+              <h3 className="text-gray-700 uppercase font-semibold">
+                woman Room
+              </h3>
               <span className="text-gray-500 mt-2">$64,000 USD</span>
             </div>
           </div>

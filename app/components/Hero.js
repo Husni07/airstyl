@@ -6,11 +6,11 @@ const Hero = () => {
       <div className="container">
         <div className="w-full px-4">
           <div className="max-w-xl mx-auto text-center lg:mb-16">
-            <h2 className="font-bold text-purple-400 text-3xl mb-4 sm:text-4xl">
+            <h2 className="font-bold text-purple-400 lg:text-4xl text-3xl mb-4 sm:text-4xl">
               Tentang Griya Merapi
             </h2>
             <p className="font-medium text-md text-secondary md:text-md">
-            Tetap Menyerah, dan Jangan Semangat
+            Tetap Menyerah, dan Jangan Semangat sleep, wake up, eat, repeat. sleep, wake up, eat, repeat. sleep, wake up, eat, repeat.
             </p>
           </div>
         </div>
