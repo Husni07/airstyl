@@ -7,7 +7,7 @@ const Hero = () => {
         <div className="w-full px-4">
           <div className="max-w-xl mx-auto text-center lg:mb-16">
             <h2 className="font-bold text-purple-400 lg:text-4xl text-3xl mb-4 sm:text-4xl">
-              Tentang Griya Merapi
+              Tentang Airstayl
             </h2>
             <p className="font-medium text-md text-secondary md:text-md">
             Tetap Menyerah, dan Jangan Semangat sleep, wake up, eat, repeat. sleep, wake up, eat, repeat. sleep, wake up, eat, repeat.
@@ -17,7 +17,7 @@ const Hero = () => {
         <div className="md:grid md:grid-cols-2 gap-8 items-center lg:mt-24 py-8 px-4 xl:gap-16 sm:py-16">
           <div className="md:mt-0 text-left flex flex-col h-full">
             <h2 className="font-bold text-purple-400 text-3xl mb-4 sm:text-4xl">
-              About Griya Merapi
+              About Airstayl
             </h2>
             <p className="font-medium text-md text-secondary md:text-lg">
               Terletak di kampung yang tenang. Rejodani jauh dari hiruk-pikuk
@@ -29,7 +29,7 @@ const Hero = () => {
             </p>
           </div>
           <Image
-            src="/image/depan-rumah.webp"
+            src="/image/home.jpg"
             alt="logo"
             loading="lazy"
             width={500}

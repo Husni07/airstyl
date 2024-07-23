@@ -6,21 +6,21 @@ import Link from "next/link";
 function Slider() {
   const slides = [
     {
-      url: "https://img.freepik.com/free-photo/wooden-bridge-koh-nangyuan-island-surat-thani-thailand_335224-1082.jpg",
+      url: "/image/hh.jpg",
     },
     {
-      url: "https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg",
+      url: "/image/casa.jpg",
     },
     {
-      url: "https://img.freepik.com/free-photo/colorful-rainbow-appearing-sky-nature-landscape_23-2151521560.jpg",
+      url: "/image/home.jpg",
+    },
+    {
+      url: "/image/manjangan.jpg",
+    },
+    {
+      url: "/image/sintuk.jpg",
     },
 
-    {
-      url: "https://img.freepik.com/free-photo/mountainous-landscape-with-fog_1150-18328.jpg",
-    },
-    {
-      url: "https://img.freepik.com/free-photo/mountain-landscape-lake-highlands-generative-ai_169016-28871.jpg",
-    },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);

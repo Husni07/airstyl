@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import Fearures from "./components/Fearures";
 import Steps from "./components/Steps";
+import Video from "./components/Video";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       <Hero/>
       <Steps/>
       <Property/>
-      <div className="h-[300vh]"></div>
+      <Video/>
       <Footer/>
     </>
   );
