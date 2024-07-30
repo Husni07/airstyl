@@ -85,10 +85,10 @@ const Header = () => {
                 </li>
 
                 <li className="group relative">
-                  <button className="text-base text-gray-600 group py-2 mx-8 flex font-semibold group-hover:text-pink-600">
-                    Property<span className="group-hover:rotate-180 ml-2 transition duration-300">𖤂</span>
+                <button className="text-base text-gray-600 group py-2 mx-8 flex font-semibold group-hover:text-pink-600">
+                    Property<span className="hidden lg:block group-hover:rotate-180 ml-2 transition duration-300">𖤂</span>
                   </button>
-                  <ul className="ml-3 lg:absolute lg:left-1/2 transform lg:-translate-x-1/2 lg:w-72 bg-[#dbe2eb] lg:py-2 w-fit rounded-lg overflow-hidden transition-all duration-200 ease-in max-h-0 opacity-0 lg:group-hover:max-h-[300px] lg:group-hover:opacity-100 lg:group-hover:translate-y-0 lg:translate-y-4 top-full mt-2">
+                  <ul className="ml-3 lg:absolute lg:hidden lg:left-1/2 transform lg:-translate-x-1/2 lg:w-72  lg:group-hover:block bg-slate-300 lg:py-2 w-fit top-0 rounded-lg lg:top-full">
                     <li>
                       <Link
                         href="#page1"
