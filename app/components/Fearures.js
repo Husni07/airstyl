@@ -11,61 +11,58 @@ const Fearures = () => {
               Stay with Style, Live in Elegance.
             </h2>
             <p className="font-medium text-md text-secondary md:text-lg">
-              Intinya Tetap Menyerah, dan Jangan Semangat. Sleep, wake up, eat
-              and repeat.
+              Eksplor Airstayl dan Temukan Pesona serta Kenyamanan di Setiap
+              Sudut
             </p>
           </div>
         </div>
         <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-          <div className="w-full p-8 flex max-w-sm mx-auto items-center rounded-md shadow-md hover:shadow-xl transition duration-300 overflow-hidden">
-            <Image
-              src="/image/base-ap.gif"
-              alt=""
-              width={500}
-              height={500}
-              className="rounded-full w-24 h-24"
-            />
+  <div className="w-full p-8 flex max-w-sm mx-auto items-center rounded-md shadow-md hover:shadow-xl transition duration-300 overflow-hidden">
+    <Image
+      src="/image/star.png"
+      alt=""
+      draggable="false"
+      width={500}
+      height={500}
+      className=" w-24 h-24"
+    />
+    <div className="px-5 py-3">
+      <h3 className="text-gray-700 uppercase font-semibold">Ulasan Positif</h3>
+      <span className="text-gray-500 mt-2">1.000+ tamu puas dengan rating 4.8/5</span>
+    </div>
+  </div>
+  
+  <div className="w-full p-8 flex max-w-sm mx-auto items-center rounded-md shadow-md hover:shadow-xl transition duration-300 overflow-hidden">
+    <Image
+      src="/image/beach.png"
+      alt=""
+      draggable="false"
+      width={500}
+      height={500}
+      className=" w-24 h-24"
+    />
+    <div className="px-5 py-3">
+      <h3 className="text-gray-700 uppercase font-semibold">Fasilitas Premium</h3>
+      <span className="text-gray-500 mt-2">20+ fasilitas termasuk kolam renang dan spa</span>
+    </div>
+  </div>
+  
+  <div className="w-full p-8 flex max-w-sm mx-auto items-center rounded-md shadow-md hover:shadow-xl transition duration-300 overflow-hidden">
+    <Image
+      src="/image/road.png"
+      alt=""
+      draggable="false"
+      width={500}
+      height={500}
+      className=" w-24 h-24"
+    />
+    <div className="px-5 py-3">
+      <h3 className="text-gray-700 uppercase font-semibold">Akses Mudah</h3>
+      <span className="text-gray-500 mt-2">Akses mudah dan dekat ke berbagai fasilitas desa.</span>
+    </div>
+  </div>
+</div>
 
-            <div className="px-5 py-3">
-              <h3 className="text-gray-700 uppercase font-semibold">
-                Menyala Sekali Abangku
-              </h3>
-              <span className="text-gray-500 mt-2">1.000+ Places</span>
-            </div>
-          </div>
-          <div className="w-full p-8 flex max-w-sm mx-auto items-center rounded-md shadow-md hover:shadow-xl transition duration-300 overflow-hidden">
-            <Image
-              src="/image/base-ap.gif"
-              alt=""
-              width={500}
-              height={500}
-              className="rounded-full w-24 h-24"
-            />
-
-            <div className="px-5 py-3">
-              <h3 className="text-gray-700 uppercase font-semibold">
-                Menyala Sekali Abangku
-              </h3>
-              <span className="text-gray-500 mt-2">1.000+ Places</span>
-            </div>
-          </div>
-          <div className="w-full p-8 flex max-w-sm mx-auto items-center rounded-md shadow-md hover:shadow-xl transition duration-300 overflow-hidden">
-            <Image
-              src="/image/base-ap.gif"
-              alt=""
-              width={500}
-              height={500}
-              className="rounded-full w-24 h-24"
-            />
-
-            <div className="px-5 py-3">
-              <h3 className="text-gray-700 uppercase font-semibold">
-                Menyala Sekali Abangku
-              </h3>
-              <span className="text-gray-500 mt-2">1.000+ Places</span>
-            </div>
-          </div>
-        </div>
       </div>
     </section>
   );

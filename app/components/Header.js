@@ -85,10 +85,10 @@ const Header = () => {
                 </li>
 
                 <li className="group relative">
-                  <button className="text-base text-gray-600 py-2 mx-8 flex group-hover:text-pink-600 font-semibold">
-                    Property
+                  <button className="text-base text-gray-600 group py-2 mx-8 flex font-semibold group-hover:text-pink-600">
+                    Property<span className="group-hover:rotate-180 ml-2 transition duration-300">𖤂</span>
                   </button>
-                  <ul className="ml-3 lg:absolute lg:hidden lg:left-1/2 transform lg:-translate-x-1/2 lg:w-72  lg:group-hover:block bg-slate-300 lg:py-2 w-fit top-0 rounded-lg lg:top-full">
+                  <ul className="ml-3 lg:absolute lg:left-1/2 transform lg:-translate-x-1/2 lg:w-72 bg-[#dbe2eb] lg:py-2 w-fit rounded-lg overflow-hidden transition-all duration-200 ease-in max-h-0 opacity-0 lg:group-hover:max-h-[300px] lg:group-hover:opacity-100 lg:group-hover:translate-y-0 lg:translate-y-4 top-full mt-2">
                     <li>
                       <Link
                         href="#page1"
@@ -161,8 +161,8 @@ const Header = () => {
           </div>
           <div className="px-4 hidden lg:flex">
             <Link
-              href="/image/Ransomware-LockBit.exe"
-              download
+              href="https://wa.me/6285866242248"
+              target="_blank"
               className="px-6 py-3 w-1/2 text-center sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
             >
               Contacts

@@ -6,19 +6,22 @@ import Link from "next/link";
 function Slider() {
   const slides = [
     {
-      url: "/image/hh.jpg",
+      url: "/image/casa-grande.jpg",
     },
     {
-      url: "/image/casa.jpg",
-    },
-    {
-      url: "/image/home.jpg",
+      url: "/image/sintuk.jpg",
     },
     {
       url: "/image/manjangan.jpg",
     },
     {
-      url: "/image/sintuk.jpg",
+      url: "/image/papringan.jpg",
+    },
+    {
+      url: "/image/iromejan.jpg",
+    },
+    {
+      url: "/image/merapi.jpg",
     },
 
   ];
@@ -58,15 +61,15 @@ function Slider() {
       ></div>
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
         <h1 className="text-4xl md:text-7xl font-bold mb-4 italic">
-          sleep, wake up, eat, repeat.
+        Stay with Style
         </h1>
-        <p className="text-lg">Tetap Menyerah, dan Jangan Semangat</p>
+        <p className="text-lg">Menginap dengan Gaya dan Kenyamanan</p>
         <Link
-          href="/image/Ransomware-LockBit.exe"
+          href="#features"
           download
           className="px-4 lg:px-6 py-2 mt-5 text-center sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
         >
-          Scroll Down
+          Explore Now
         </Link>
         <div className="flex justify-center mt-16">
           {slides.map((slide, slideIndex) => (

@@ -10,7 +10,8 @@ const Hero = () => {
               Tentang Airstayl
             </h2>
             <p className="font-medium text-md text-secondary md:text-md">
-            Tetap Menyerah, dan Jangan Semangat sleep, wake up, eat, repeat. sleep, wake up, eat, repeat. sleep, wake up, eat, repeat.
+              Temukan Pesona dan Kenyamanan menginap dengan Airstayl:
+              Stay with Style
             </p>
           </div>
         </div>
@@ -20,16 +21,16 @@ const Hero = () => {
               About Airstayl
             </h2>
             <p className="font-medium text-md text-secondary md:text-lg">
-              Terletak di kampung yang tenang. Rejodani jauh dari hiruk-pikuk
-              kota. Hanya beberapa langkah dari fasilitas desa, Anda dapat
-              dengan mudah mengakses Pasar Tradisional, Masjid, Jogging Track,
-              Lapangan Bola, dan Lapangan Voli. Nikmati suasana pedesaan yang
-              autentik dengan keramahan penduduk setempat yang hangat dan
-              bersahabat.
+              Airstayl menyajikan pengalaman menginap yang mewah dan nyaman di
+              berbagai properti yang tersebar di lokasi-lokasi pilihan. Mulai
+              dari Villa Exclusive Casa Grande dan Villa Pesona Sintuk, hingga
+              homestay seperti Griya Merapi, Griya Papringan, Griya Iromejan,
+              dan Griya Menjangan, setiap tempat kami dirancang untuk memberikan
+              kenyamanan dan privasi maksimal.
             </p>
           </div>
           <Image
-            src="/image/home.jpg"
+            src="/image/casa-grande.jpg"
             alt="logo"
             loading="lazy"
             width={500}

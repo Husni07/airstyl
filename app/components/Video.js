@@ -3,16 +3,15 @@ import Image from "next/image";
 import Link from "next/link";
 const Video = () => {
   return (
-    <section id="features">
+    <section id="Video">
       <div className="container">
         <div className="md:grid md:grid-cols-2 gap-8 items-center lg:mt-24 py-8 px-4 xl:gap-16 sm:py-16">
           <div className="md:mt-0 text-left flex flex-col h-full">
             <h2 className="font-bold italic text-purple-400 text-3xl lg:text-4xl mb-4 sm:text-4xl">
-              Tiga Langkah Menuju
+              Book a ticket and just leave.
             </h2>
             <p className="font-medium text-md text-secondary md:text-lg">
-              Intinya Tetap Menyerah, dan Jangan Semangat. Sleep, wake up, eat
-              and repeat.
+              Jelajahi, dan temukan pengalaman menginap dalam hidup Anda.
             </p>
           </div>
           <div className="px-4 hidden md:flex w-full md:justify-end">
@@ -27,11 +26,11 @@ const Video = () => {
         </div>
         <div className="flex px-4">
           <Image
-            src="/image/depan-rumah.webp"
+            src="/image/manjangan.jpg"
             alt=""
             width={1500}
             height={800}
-            className="rounded-3xl w-full md:h-[480px]"
+            className="rounded-3xl w-full object-cover md:h-[480px]"
           />
         </div>
       </div>
