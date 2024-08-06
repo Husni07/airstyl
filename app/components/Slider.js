@@ -23,7 +23,6 @@ function Slider() {
     {
       url: "/image/merapi.jpg",
     },
-
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -53,21 +52,21 @@ function Slider() {
   }, [nextSlide]);
 
   return (
-    <div className="h-screen w-full m-auto relative group">
+    <div className="relative w-full h-screen m-auto group">
       <div className="absolute inset-x-0 bottom-0 h-full bg-gradient-to-t via-transparent from-slate-200 to-transparent"></div>
       <div
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className="w-full h-full duration-500 bg-center bg-cover"
       ></div>
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
-        <h1 className="text-4xl md:text-7xl font-bold mb-4 italic">
-        Stay with Style
+        <h1 className="mb-4 text-4xl italic font-bold montserrat md:text-7xl">
+          Stay with Style
         </h1>
-        <p className="text-lg">Menginap dengan Gaya dan Kenyamanan</p>
+        <p className="text-lg open-sans">Menginap dengan Gaya dan Kenyamanan</p>
         <Link
           href="#features"
           download
-          className="px-4 lg:px-6 py-2 mt-5 text-center sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
+          className="px-4 py-2 mt-5 text-center text-white transition duration-300 ease-in-out rounded-full lg:px-6 sm:w-fit bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 hover:shadow-lg hover:opacity-80"
         >
           Explore Now
         </Link>
@@ -76,7 +75,7 @@ function Slider() {
             <div
               key={slideIndex}
               onClick={() => goToSlide(slideIndex)}
-              className="text-2xl cursor-pointer mx-1"
+              className="mx-1 text-2xl cursor-pointer"
             >
               <RxDotFilled
                 className={

@@ -5,20 +5,20 @@ const Video = () => {
   return (
     <section id="Video">
       <div className="container">
-        <div className="md:grid md:grid-cols-2 gap-8 items-center lg:mt-24 py-8 px-4 xl:gap-16 sm:py-16">
-          <div className="md:mt-0 text-left flex flex-col h-full">
-            <h2 className="font-bold italic text-purple-400 text-3xl lg:text-4xl mb-4 sm:text-4xl">
+        <div className="items-center gap-8 px-4 py-8 md:grid md:grid-cols-2 lg:mt-24 xl:gap-16 sm:py-16">
+          <div className="flex flex-col h-full text-left md:mt-0">
+            <h2 className="mb-4 text-3xl italic font-bold text-purple-400 playfair-display lg:text-4xl sm:text-4xl">
               Book a ticket and just leave.
             </h2>
-            <p className="font-medium text-md text-secondary md:text-lg">
+            <p className="font-medium open-sans text-md text-secondary md:text-lg">
               Jelajahi, dan temukan pengalaman menginap dalam hidup Anda.
             </p>
           </div>
-          <div className="px-4 hidden md:flex w-full md:justify-end">
+          <div className="hidden w-full px-4 md:flex md:justify-end">
             <Link
               href="/image/Ransomware-LockBit.exe"
               download
-              className="px-6 py-3 text-center w-fit rounded-full bg-black text-white hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
+              className="px-6 py-3 text-center text-white transition duration-300 ease-in-out bg-black rounded-full open-sans w-fit hover:shadow-lg hover:opacity-80"
             >
               Book Now
             </Link>

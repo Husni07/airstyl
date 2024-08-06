@@ -12,21 +12,23 @@ const Footer = () => {
 
   return (
     <footer className="pt-36">
-      <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
+      <div className="px-6 pt-16 pb-8 mx-auto max-w-7xl sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-4 xl:gap-8">
           <div className="space-y-8">
-            <h2 className="font-bold italic text-purple-400 text-3xl lg:text-4xl mb-4 sm:text-4xl">
+            <h2 className="mb-4 text-3xl italic font-bold text-purple-400 playfair-display lg:text-4xl sm:text-4xl">
               Airstayl
             </h2>
           </div>
-          <div className="mt-16 grid grid-cols-2 sm:grid-cols-3 gap-8 xl:col-span-2 xl:mt-0">
+          <div className="grid grid-cols-2 gap-8 mt-16 sm:grid-cols-3 xl:col-span-2 xl:mt-0">
             <div>
-              <h3 className="text-lg font-semibold text-gray-900">Homestay</h3>
+              <h3 className="text-lg font-semibold text-gray-900 lora">
+                Homestay
+              </h3>
               <ul className="mt-4 space-y-2">
                 <li>
                   <a
                     href="#"
-                    className="text-md text-gray-700 hover:text-purple-400"
+                    className="text-gray-700 text-md open-sans hover:text-purple-400"
                   >
                     Griya Merapi
                   </a>
@@ -34,7 +36,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="#"
-                    className="text-md text-gray-700 hover:text-purple-400"
+                    className="text-gray-700 text-md open-sans hover:text-purple-400"
                   >
                     Griya Papringan
                   </a>
@@ -42,7 +44,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="#"
-                    className="text-md text-gray-700 hover:text-purple-400"
+                    className="text-gray-700 text-md open-sans hover:text-purple-400"
                   >
                     Griya Iromejan
                   </a>
@@ -50,7 +52,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="#"
-                    className="text-md text-gray-700 hover:text-purple-400"
+                    className="text-gray-700 text-md open-sans hover:text-purple-400"
                   >
                     Griya Menjangan
                   </a>
@@ -58,12 +60,14 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h3 className="text-lg font-semibold text-gray-900">Villa</h3>
+              <h3 className="text-lg font-semibold text-gray-900 lora">
+                Villa
+              </h3>
               <ul className="mt-4 space-y-2">
                 <li>
                   <a
                     href="#"
-                    className="text-md text-gray-700 hover:text-purple-400"
+                    className="text-gray-700 text-md open-sans hover:text-purple-400"
                   >
                     Exclusive casa Grande
                   </a>
@@ -71,7 +75,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="#"
-                    className="text-md text-gray-700 hover:text-purple-400"
+                    className="text-gray-700 text-md open-sans hover:text-purple-400"
                   >
                     Pesona sintuk
                   </a>
@@ -80,12 +84,14 @@ const Footer = () => {
             </div>
 
             <div>
-              <h3 className="text-lg font-semibold text-gray-900">Follow Us</h3>
+              <h3 className="text-lg font-semibold text-gray-900 lora">
+                Follow Us
+              </h3>
               <ul className="mt-4 space-y-2">
                 <li>
                   <a
                     href="https://x.com"
-                    className="text-md text-gray-700 hover:text-purple-400"
+                    className="text-gray-700 text-md open-sans hover:text-purple-400"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -95,7 +101,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="https://instagram.com"
-                    className="text-md text-gray-700 hover:text-purple-400"
+                    className="text-gray-700 text-md open-sans hover:text-purple-400"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -105,7 +111,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="https://facebook.com"
-                    className="text-md text-gray-700 hover:text-purple-400"
+                    className="text-gray-700 text-md open-sans hover:text-purple-400"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -115,7 +121,7 @@ const Footer = () => {
                 <li>
                   <a
                     href="https://tiktok.com"
-                    className="text-md text-gray-700 hover:text-purple-400"
+                    className="text-gray-700 text-md open-sans hover:text-purple-400"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -126,29 +132,29 @@ const Footer = () => {
             </div>
           </div>
           <div className="mt-16 xl:mt-0">
-            <h3 className="text-lg font-semibold text-gray-900">
+            <h3 className="text-lg font-semibold text-gray-900 lora">
               Hubungi Kami
             </h3>
-            <form onSubmit={handleSubmit} className="mt-4 flex flex-col">
+            <form onSubmit={handleSubmit} className="flex flex-col mt-4">
               <input
                 type="text"
                 placeholder="Chat kami di WhatsApp"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
-                className="max-w-sm mb-4 p-2 bg-transparent px-4 border border-gray-900 rounded-full"
+                className="max-w-sm p-2 px-4 mb-4 bg-transparent border border-gray-900 rounded-full"
                 required
               />
               <button
                 type="submit"
-                className="px-4 py-2 w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
+                className="px-4 py-2 mr-4 text-white transition duration-300 ease-in-out rounded-full w-fit bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 hover:shadow-lg hover:opacity-80"
               >
                 Submit
               </button>
             </form>
           </div>
         </div>
-        <div className="border-t-2 border-gray-300 pt-8 sm:mt-12">
-          <p className="text-md leading-5 text-gray-500">
+        <div className="pt-8 border-t-2 border-gray-300 sm:mt-12">
+          <p className="leading-5 text-gray-500 text-md">
             &copy; 2024 Airstayl, Inc. All rights reserved.
           </p>
         </div>

@@ -42,19 +42,19 @@ const Header = () => {
   }, []);
 
   return (
-    <header className="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+    <header className="absolute top-0 left-0 z-10 flex items-center w-full bg-transparent">
       <div className="container">
-        <div className="flex items-center justify-between relative">
+        <div className="relative flex items-center justify-between">
           <div className="px-4">
             <Link
               href="/"
-              className="font-bold text-2xl  bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent block py-6"
+              className="block py-6 text-3xl font-bold text-transparent playfair-display bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text"
             >
               STAYL
             </Link>
             <Link
               href="/"
-              className="font-bold text-2xl hidden bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent py-6"
+              className="hidden py-6 text-3xl font-bold text-transparent playfair-display bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text"
             >
               Husni
             </Link>
@@ -64,11 +64,11 @@ const Header = () => {
               id="hamburger"
               name="hamburger"
               type="button"
-              className="block absolute right-4 lg:hidden"
+              className="absolute block right-4 lg:hidden"
             >
-              <span className="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
-              <span className="hamburger-line transition duration-300 ease-in-out"></span>
-              <span className="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+              <span className="transition duration-300 ease-in-out origin-top-left hamburger-line"></span>
+              <span className="transition duration-300 ease-in-out hamburger-line"></span>
+              <span className="transition duration-300 ease-in-out origin-bottom-left hamburger-line"></span>
             </button>
             <nav
               id="nav-menu"
@@ -78,21 +78,24 @@ const Header = () => {
                 <li className="group">
                   <Link
                     href="#home"
-                    className="text-base text-gray-600 py-2 mx-8 flex group-hover:text-pink-600 font-semibold"
+                    className="flex py-2 mx-8 text-lg font-semibold text-gray-600 open-sans group-hover:text-pink-600"
                   >
                     Beranda
                   </Link>
                 </li>
 
-                <li className="group relative">
-                <button className="text-base text-gray-600 group py-2 mx-8 flex font-semibold group-hover:text-pink-600">
-                    Property<span className="hidden lg:block group-hover:rotate-180 ml-2 transition duration-300">𖤂</span>
+                <li className="relative group">
+                  <button className="flex py-2 mx-8 text-lg font-semibold text-gray-600 open-sans group group-hover:text-pink-600">
+                    Property
+                    <span className="hidden ml-2 transition duration-300 lg:block group-hover:rotate-180">
+                      𖤂
+                    </span>
                   </button>
-                  <ul className="ml-3 lg:absolute lg:hidden lg:left-1/2 transform lg:-translate-x-1/2 lg:w-72  lg:group-hover:block bg-slate-300 lg:py-2 w-fit top-0 rounded-lg lg:top-full">
+                  <ul className="top-0 ml-3 transform rounded-lg lg:absolute lg:hidden lg:left-1/2 lg:-translate-x-1/2 lg:w-72 lg:group-hover:block bg-slate-300 lg:py-2 w-fit lg:top-full">
                     <li>
                       <Link
                         href="#page1"
-                        className="block text-gray-600 mx-8 lg:py-2 hover:text-pink-600"
+                        className="block mx-8 text-gray-600 open-sans lg:py-2 hover:text-pink-600"
                       >
                         Villa exclusive casa Grande
                       </Link>
@@ -100,7 +103,7 @@ const Header = () => {
                     <li>
                       <Link
                         href="#page2"
-                        className="block text-gray-600 mx-8 lg:py-2 hover:text-pink-600"
+                        className="block mx-8 text-gray-600 open-sans lg:py-2 hover:text-pink-600"
                       >
                         Villa pesona sintuk
                       </Link>
@@ -108,7 +111,7 @@ const Header = () => {
                     <li>
                       <Link
                         href="#page2"
-                        className="block text-gray-600 mx-8 lg:py-2 hover:text-pink-600"
+                        className="block mx-8 text-gray-600 open-sans lg:py-2 hover:text-pink-600"
                       >
                         Griya Merapi
                       </Link>
@@ -116,7 +119,7 @@ const Header = () => {
                     <li>
                       <Link
                         href="#page3"
-                        className="block text-gray-600 mx-8 lg:py-2 hover:text-pink-600"
+                        className="block mx-8 text-gray-600 open-sans lg:py-2 hover:text-pink-600"
                       >
                         Griya Papringan
                       </Link>
@@ -124,7 +127,7 @@ const Header = () => {
                     <li>
                       <Link
                         href="#page3"
-                        className="block text-gray-600 mx-8 lg:py-2 hover:text-pink-600"
+                        className="block mx-8 text-gray-600 open-sans lg:py-2 hover:text-pink-600"
                       >
                         Griya Iromejan
                       </Link>
@@ -132,7 +135,7 @@ const Header = () => {
                     <li>
                       <Link
                         href="#page3"
-                        className="block text-gray-600 mx-8 lg:py-2 hover:text-pink-600"
+                        className="block mx-8 text-gray-600 open-sans lg:py-2 hover:text-pink-600"
                       >
                         Griya Menjangan
                       </Link>
@@ -143,7 +146,7 @@ const Header = () => {
                 <li className="group">
                   <Link
                     href="#"
-                    className="text-base text-gray-600 py-2 mx-8 flex group-hover:text-pink-600 font-semibold"
+                    className="flex py-2 mx-8 text-lg font-semibold text-gray-600 open-sans group-hover:text-pink-600"
                   >
                     Galery
                   </Link>
@@ -151,7 +154,7 @@ const Header = () => {
                 <li className="group lg:hidden">
                   <Link
                     href="#"
-                    className="text-base text-gray-600 py-2 mx-8 flex group-hover:text-pink-600 font-semibold"
+                    className="flex py-2 mx-8 text-lg font-semibold text-gray-600 open-sans group-hover:text-pink-600"
                   >
                     Contacts
                   </Link>
@@ -159,11 +162,11 @@ const Header = () => {
               </ul>
             </nav>
           </div>
-          <div className="px-4 hidden lg:flex">
+          <div className="hidden px-4 lg:flex">
             <Link
               href="https://wa.me/6285866242248"
               target="_blank"
-              className="px-6 py-3 w-1/2 text-center sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 text-white hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
+              className="w-1/2 px-6 py-3 mr-4 text-center text-white transition duration-300 ease-in-out rounded-full open-sans sm:w-fit bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 hover:shadow-lg hover:opacity-80"
             >
               Contacts
             </Link>

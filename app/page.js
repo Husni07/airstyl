@@ -11,12 +11,12 @@ export default function Home() {
   return (
     <>
       <Slider />
-      <Fearures/>
-      <Hero/>
-      <Steps/>
-      <Property/>
-      <Video/>
-      <Footer/>
+      <Fearures />
+      <Hero />
+      <Steps />
+      <Property />
+      <Video />
+      <Footer />
     </>
   );
 }

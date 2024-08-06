@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400&family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap"');
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -15,17 +17,39 @@
     --background-end-rgb: 0, 0, 0;
   }
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 body {
-@apply bg-slate-200;
+  @apply bg-slate-200;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.playfair-display {
+  font-family: "Playfair Display", sans-serif;
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.lora {
+  font-family: "Lora", sans-serif;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
 }
 
 .navbar-fixed {
