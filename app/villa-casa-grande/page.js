@@ -4,12 +4,16 @@ import Link from "next/link";
 import Image from "next/image";
 import Features from "../components/content/Features";
 import Star from "../components/content/Star";
+
 const image = [
   {
-    data: "/image/casa-grande/casa-grande.jpg",
+    data: "/image/casa-grande/property.jpg",
   },
   {
     data: "/image/casa-grande/ruang-tengah.jpg",
+  },
+  {
+    data: "/image/casa-grande/ruang-tamu.jpg",
   },
   {
     data: "/image/casa-grande/kamar-tidur.jpg",
@@ -17,7 +21,17 @@ const image = [
   {
     data: "/image/casa-grande/dapur.jpg",
   },
+  {
+    data: "/image/casa-grande/kamar-mandi.jpg",
+  },
+  {
+    data: "/image/casa-grande/image-1.jpg",
+  },
+  {
+    data: "/image/casa-grande/image-2.jpg",
+  },
 ];
+
 const page = () => {
   return (
     <main id="hero" className="container pt-24">
@@ -34,15 +48,15 @@ const page = () => {
               Kec. Depok, Kabupaten Sleman, Daerah Istimewa Yogyakarta 55281
             </p>
           </div>
-          <div className="flex justify-between w-full mt-4 md:justify-normal md:flex-col md:items-end">
+          <div className="flex justify-between w-full mt-4 md:justify-normal md:flex-col md:items-end sticky top-4">
             <h2 className="mb-4 text-3xl font-bold text-purple-400 playfair-display lg:text-4xl sm:text-4xl">
-              $700.00
+              Rp. 990.000
               <span className="text-sm italic text-gray-600"> Per Night</span>
             </h2>
             <div className="flex items-center gap-4">
               <Link
-                href="/image/Ransomware-LockBit.exe"
-                download
+                href="https://wa.me/"
+                target="_blank"
                 className="px-6 py-3 text-center text-white transition duration-300 ease-in-out bg-black rounded-full open-sans w-fit hover:shadow-lg hover:opacity-80"
               >
                 Book Now

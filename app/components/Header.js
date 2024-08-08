@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
+import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 const Header = () => {
   useEffect(() => {
     const header = document.querySelector("header");
@@ -86,17 +86,17 @@ const Header = () => {
                 </li>
 
                 <li className="relative group">
-                  <button className="flex items-center py-2 mx-8 text-lg font-semibold text-gray-600 open-sans group group-hover:text-pink-600">
+                  <button className="flex py-2 mx-8 text-lg font-semibold text-gray-600 open-sans group group-hover:text-pink-600">
                     Property
-                    <span className="hidden ml-2 transition duration-300 lg:block group-hover:rotate-180">
-                      <FontAwesomeIcon icon={faChevronUp} />
+                    <span className="hidden ml-2 transition duration-300 lg:block group-hover:-rotate-180">
+                      <FontAwesomeIcon icon={faChevronDown} />
                     </span>
                   </button>
                   <ul className="top-0 ml-3 transform rounded-lg lg:absolute lg:hidden lg:left-1/2 lg:-translate-x-1/2 lg:w-72 lg:group-hover:block bg-slate-300 lg:py-2 w-fit lg:top-full">
                     <li>
                       <Link
                         href="villa-casa-grande"
-                        className="block mx-8 text-gray-600 open-sans lg:py-2 hover:text-pink-600"
+                        className="block mx-8 text-gray-600  hover:translate-x-2 duration-100 open-sans lg:py-2 hover:text-pink-600"
                       >
                         Villa exclusive casa Grande
                       </Link>
@@ -104,7 +104,7 @@ const Header = () => {
                     <li>
                       <Link
                         href="pesona-sintuk"
-                        className="block mx-8 text-gray-600 open-sans lg:py-2 hover:text-pink-600"
+                        className="block mx-8 text-gray-600 hover:translate-x-2 duration-100 open-sans lg:py-2 hover:text-pink-600"
                       >
                         Villa pesona sintuk
                       </Link>
@@ -112,7 +112,7 @@ const Header = () => {
                     <li>
                       <Link
                         href="#page2"
-                        className="block mx-8 text-gray-600 open-sans lg:py-2 hover:text-pink-600"
+                        className="block mx-8 text-gray-600 hover:translate-x-2 duration-100 open-sans lg:py-2 hover:text-pink-600"
                       >
                         Griya Merapi
                       </Link>
@@ -120,7 +120,7 @@ const Header = () => {
                     <li>
                       <Link
                         href="#page3"
-                        className="block mx-8 text-gray-600 open-sans lg:py-2 hover:text-pink-600"
+                        className="block mx-8 text-gray-600 hover:translate-x-2 duration-100 open-sans lg:py-2 hover:text-pink-600"
                       >
                         Griya Papringan
                       </Link>
@@ -128,7 +128,7 @@ const Header = () => {
                     <li>
                       <Link
                         href="#page3"
-                        className="block mx-8 text-gray-600 open-sans lg:py-2 hover:text-pink-600"
+                        className="block mx-8 text-gray-600 hover:translate-x-2 duration-100 open-sans lg:py-2 hover:text-pink-600"
                       >
                         Griya Iromejan
                       </Link>
@@ -136,7 +136,7 @@ const Header = () => {
                     <li>
                       <Link
                         href="#page3"
-                        className="block mx-8 text-gray-600 open-sans lg:py-2 hover:text-pink-600"
+                        className="block mx-8 text-gray-600 hover:translate-x-2 duration-100 open-sans lg:py-2 hover:text-pink-600"
                       >
                         Griya Menjangan
                       </Link>
@@ -157,7 +157,7 @@ const Header = () => {
           </div>
           <div className="hidden px-4 lg:flex">
             <Link
-              href="https://wa.me/6285866242248"
+              href="https://wa.me/"
               target="_blank"
               className="w-1/2 px-6 py-3 mr-4 text-center text-white transition duration-300 ease-in-out rounded-full open-sans sm:w-fit bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 hover:shadow-lg hover:opacity-80"
             >

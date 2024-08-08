@@ -6,7 +6,7 @@ const Footer = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const whatsapp = `https://wa.me/6285866242248?text=${message}`;
+    const whatsapp = `https://wa.me/6285866242248?text=p+bang%0A${message}`;
     window.open(whatsapp, "_blank");
   };
 

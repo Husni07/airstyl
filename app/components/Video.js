@@ -16,8 +16,8 @@ const Video = () => {
           </div>
           <div className="hidden w-full px-4 md:flex md:justify-end">
             <Link
-              href="/image/Ransomware-LockBit.exe"
-              download
+              href="https://wa.me/"
+              target="_blank"
               className="px-6 py-3 text-center text-white transition duration-300 ease-in-out bg-black rounded-full open-sans w-fit hover:shadow-lg hover:opacity-80"
             >
               Book Now
