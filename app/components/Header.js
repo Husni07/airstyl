@@ -1,7 +1,8 @@
 "use client";
 import Link from "next/link";
 import { useEffect, useState } from "react";
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 const Header = () => {
   useEffect(() => {
     const header = document.querySelector("header");
@@ -77,7 +78,7 @@ const Header = () => {
               <ul className="block lg:flex">
                 <li className="group">
                   <Link
-                    href="#home"
+                    href="/"
                     className="flex py-2 mx-8 text-lg font-semibold text-gray-600 open-sans group-hover:text-pink-600"
                   >
                     Beranda
@@ -85,16 +86,16 @@ const Header = () => {
                 </li>
 
                 <li className="relative group">
-                  <button className="flex py-2 mx-8 text-lg font-semibold text-gray-600 open-sans group group-hover:text-pink-600">
+                  <button className="flex items-center py-2 mx-8 text-lg font-semibold text-gray-600 open-sans group group-hover:text-pink-600">
                     Property
                     <span className="hidden ml-2 transition duration-300 lg:block group-hover:rotate-180">
-                      𖤂
+                      <FontAwesomeIcon icon={faChevronUp} />
                     </span>
                   </button>
                   <ul className="top-0 ml-3 transform rounded-lg lg:absolute lg:hidden lg:left-1/2 lg:-translate-x-1/2 lg:w-72 lg:group-hover:block bg-slate-300 lg:py-2 w-fit lg:top-full">
                     <li>
                       <Link
-                        href="#page1"
+                        href="villa-casa-grande"
                         className="block mx-8 text-gray-600 open-sans lg:py-2 hover:text-pink-600"
                       >
                         Villa exclusive casa Grande
@@ -102,7 +103,7 @@ const Header = () => {
                     </li>
                     <li>
                       <Link
-                        href="#page2"
+                        href="pesona-sintuk"
                         className="block mx-8 text-gray-600 open-sans lg:py-2 hover:text-pink-600"
                       >
                         Villa pesona sintuk
@@ -143,14 +144,6 @@ const Header = () => {
                   </ul>
                 </li>
 
-                <li className="group">
-                  <Link
-                    href="#"
-                    className="flex py-2 mx-8 text-lg font-semibold text-gray-600 open-sans group-hover:text-pink-600"
-                  >
-                    Galery
-                  </Link>
-                </li>
                 <li className="group lg:hidden">
                   <Link
                     href="#"
