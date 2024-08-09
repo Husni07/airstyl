@@ -111,7 +111,7 @@ const Header = () => {
                     </li>
                     <li>
                       <Link
-                        href="#page2"
+                        href="griya-merapi"
                         className="block mx-8 text-gray-600 hover:translate-x-2 duration-100 open-sans lg:py-2 hover:text-pink-600"
                       >
                         Griya Merapi
@@ -119,7 +119,7 @@ const Header = () => {
                     </li>
                     <li>
                       <Link
-                        href="#page3"
+                        href="griya-papringan"
                         className="block mx-8 text-gray-600 hover:translate-x-2 duration-100 open-sans lg:py-2 hover:text-pink-600"
                       >
                         Griya Papringan
@@ -127,7 +127,7 @@ const Header = () => {
                     </li>
                     <li>
                       <Link
-                        href="#page3"
+                        href="griya-iromejan"
                         className="block mx-8 text-gray-600 hover:translate-x-2 duration-100 open-sans lg:py-2 hover:text-pink-600"
                       >
                         Griya Iromejan
@@ -135,7 +135,7 @@ const Header = () => {
                     </li>
                     <li>
                       <Link
-                        href="#page3"
+                        href="griya-menjangan"
                         className="block mx-8 text-gray-600 hover:translate-x-2 duration-100 open-sans lg:py-2 hover:text-pink-600"
                       >
                         Griya Menjangan

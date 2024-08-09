@@ -7,28 +7,28 @@ import Star from "../components/content/Star";
 
 const image = [
   {
-    data: "/image/casa-grande/property.jpg",
+    data: "/image/casa-grande/property.webp",
   },
   {
-    data: "/image/casa-grande/ruang-tengah.jpg",
+    data: "/image/casa-grande/ruang-tengah.webp",
   },
   {
-    data: "/image/casa-grande/ruang-tamu.jpg",
+    data: "/image/casa-grande/ruang-tamu.webp",
   },
   {
-    data: "/image/casa-grande/kamar-tidur.jpg",
+    data: "/image/casa-grande/kamar-tidur.webp",
   },
   {
-    data: "/image/casa-grande/dapur.jpg",
+    data: "/image/casa-grande/dapur.webp",
   },
   {
-    data: "/image/casa-grande/kamar-mandi.jpg",
+    data: "/image/casa-grande/kamar-mandi.webp",
   },
   {
-    data: "/image/casa-grande/image-1.jpg",
+    data: "/image/casa-grande/image-1.webp",
   },
   {
-    data: "/image/casa-grande/image-2.jpg",
+    data: "/image/casa-grande/image-2.webp",
   },
 ];
 

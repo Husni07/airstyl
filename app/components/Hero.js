@@ -30,7 +30,7 @@ const Hero = () => {
             </p>
           </div>
           <Image
-            src="/image/casa-grande.jpg"
+            src="/image/casa-grande/property.webp"
             alt="logo"
             loading="lazy"
             width={500}

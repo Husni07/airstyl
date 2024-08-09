@@ -26,7 +26,7 @@ const Video = () => {
         </div>
         <div className="flex px-4">
           <Image
-            src="/image/manjangan.jpg"
+            src="/image/griya-menjangan/property.webp"
             alt=""
             width={1500}
             height={800}

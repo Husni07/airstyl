@@ -6,22 +6,22 @@ import Link from "next/link";
 function Slider() {
   const slides = [
     {
-      url: "/image/casa-grande.jpg",
+      url: "/image/casa-grande/property.webp",
     },
     {
-      url: "/image/sintuk.jpg",
+      url: "/image/pesona-sintuk/property.webp",
     },
     {
-      url: "/image/manjangan.jpg",
+      url: "/image/griya-menjangan/property.webp",
     },
     {
-      url: "/image/papringan.jpg",
+      url: "/image/griya-papringan/property.webp",
     },
     {
-      url: "/image/iromejan.jpg",
+      url: "/image/griya-iromejan/property.webp",
     },
     {
-      url: "/image/merapi.jpg",
+      url: "/image/griya-merapi/property.webp",
     },
   ];
 
@@ -46,7 +46,7 @@ function Slider() {
   useEffect(() => {
     const interval = setInterval(() => {
       nextSlide();
-    }, 2000);
+    }, 5000);
 
     return () => clearInterval(interval);
   }, [nextSlide]);

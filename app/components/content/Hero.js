@@ -12,16 +12,20 @@ export function Hero({ image }) {
           loading="lazy"
         />
       </div>
-      <div
-        className="w-full overflow-x-auto"
-      >
-        <div className="flex space-x-2 md:space-x-4">
+      <div className="w-full overflow-x-auto">
+        <div
+          className="flex space-x-2 md:space-x-4"
+          style={{ overflowX: "scroll", scrollbarWidth: "none" }}
+        >
           {image.map(({ data }, index) => (
-            <div key={index} className="flex-shrink-0 rounded-lg overflow-hidden">
+            <div
+              key={index}
+              className="flex-shrink-0 overflow-hidden rounded-lg"
+            >
               <img
                 onClick={() => setActive(data)}
                 src={data}
-                className="object-cover w-24 sm:w-36 hover:scale-105 duration-300 lg:w-56 h-20 cursor-pointer transition-transform"
+                className="object-cover w-24 h-20 transition-transform duration-300 cursor-pointer sm:w-36 hover:scale-105 lg:w-56"
                 alt={`gallery-image-${index}`}
                 loading="lazy"
               />
@@ -29,7 +33,6 @@ export function Hero({ image }) {
           ))}
         </div>
       </div>
-      {/* <p className="mx-auto">← →</p> */}
     </div>
   );
 }

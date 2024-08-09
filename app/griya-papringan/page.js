@@ -7,30 +7,29 @@ import Star from "../components/content/Star";
 
 const image = [
   {
-    data: "/image/pesona-sintuk/property.webp",
+    data: "/image/griya-papringan/property.webp",
   },
   {
-    data: "/image/pesona-sintuk/ruang-tengah.webp",
+    data: "/image/griya-papringan/ruang-tengah.webp",
   },
   {
-    data: "/image/pesona-sintuk/ruang-tamu.webp",
+    data: "/image/griya-papringan/ruang-tamu.webp",
   },
   {
-    data: "/image/pesona-sintuk/kamar-tidur.webp",
+    data: "/image/griya-papringan/kamar-tidur.webp",
   },
   {
-    data: "/image/pesona-sintuk/dapur.webp",
+    data: "/image/griya-papringan/dapur.webp",
   },
   {
-    data: "/image/pesona-sintuk/kamar-mandi.webp",
+    data: "/image/griya-papringan/kamar-mandi.webp",
   },
   {
-    data: "/image/pesona-sintuk/image-1.webp",
+    data: "/image/griya-papringan/image-1.webp",
   },
   {
-    data: "/image/pesona-sintuk/image-2.webp",
+    data: "/image/griya-papringan/image-2.webp",
   },
-  ,
 ];
 
 const page = () => {
@@ -42,11 +41,11 @@ const page = () => {
           <div className="flex flex-col h-full col-span-2 text-left md:mt-0">
             <Star />
             <h2 className="mb-1 text-3xl italic font-bold text-purple-400 playfair-display lg:text-4xl sm:text-4xl">
-              Villa Pesona sintuk
+              Griya Papringan
             </h2>
             <p className="font-medium open-sans text-sm md:w-[70%] flex flex-col">
-              Perumahan Pesona Sintuk Bontang No. A8, Kec, Belimbing, Kec.
-              Bontang Bar., Kota Bontang, Kalimantan Timur 75321
+              Jl. Petung No.10, Papringan, Caturtunggal, Kec. Depok, Kabupaten
+              Sleman, Daerah Istimewa Yogyakarta 55281
             </p>
           </div>
           <div className="flex justify-between w-full mt-4 md:justify-normal md:flex-col md:items-end sticky top-4">
@@ -94,14 +93,14 @@ const page = () => {
             About the Property
           </h2>
           <p className="font-medium open-sans text-md text-secondary md:text-lg">
-            Villa Pesona sintuk menawarkan pengalaman menginap yang mewah dan
-            nyaman dengan berbagai fitur unggulan yang dirancang untuk memenuhi
-            kebutuhan semua tamu. Terletak di lokasi strategis, villa ini adalah
-            pilihan ideal untuk keluarga besar, kelompok teman, atau pasangan
-            yang mencari tempat berlibur yang eksklusif. Villa Pesona sintuk
+            Griya Papringan menawarkan pengalaman menginap yang mewah dan nyaman
+            dengan berbagai fitur unggulan yang dirancang untuk memenuhi
+            kebutuhan semua tamu. Terletak di lokasi strategis, homestay ini
+            adalah pilihan ideal untuk keluarga besar, kelompok teman, atau
+            pasangan yang mencari tempat berlibur yang eksklusif. Griya Papringan
             adalah pilihan ideal bagi mereka yang menginginkan kombinasi
             kemewahan, kenyamanan, dan fasilitas lengkap. Baik untuk liburan
-            santai, perayaan spesial, atau perjalanan bisnis, villa ini
+            santai, perayaan spesial, atau perjalanan bisnis, homestay ini
             menyediakan semua yang Anda butuhkan untuk pengalaman menginap yang
             tak terlupakan.
           </p>
@@ -116,13 +115,13 @@ const page = () => {
                 Visit Location
               </h2>
               <p className="font-medium open-sans text-sm md:w-[70%] flex flex-col">
-                Perumahan Pesona Sintuk Bontang No. A8, Kec, Belimbing, Kec.
-                Bontang Bar., Kota Bontang, Kalimantan Timur 75321
+                Jl. Petung No.10, Papringan, Caturtunggal, Kec. Depok, Kabupaten
+                Sleman, Daerah Istimewa Yogyakarta 55281
               </p>
             </div>
             <div className="hidden w-full px-4 md:flex md:justify-end">
               <Link
-                href="https://maps.app.goo.gl/1pwpNbFHxHEtNWH3A"
+                href="https://maps.app.goo.gl/ZykgbvGsJVXHxW2W8"
                 target="_blank"
                 className="px-6 py-3 text-center text-white transition duration-300 ease-in-out bg-black rounded-full open-sans w-fit hover:shadow-lg hover:opacity-80"
               >
@@ -132,7 +131,7 @@ const page = () => {
           </div>
           <div className="flex px-4">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.801410364225!2d117.4642222!3d0.1668141!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x320a13f050ac7385%3A0x73394d116d750b53!2sHomestay%20Pesona%20Sintuk%20Bontang!5e0!3m2!1sid!2sid!4v1723090813336!5m2!1sid!2sid"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.084384020828!2d110.3958109!3d-7.780877500000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59c476e746a9%3A0xda823678c37a10c6!2sGriya%20Papringan!5e0!3m2!1sid!2sid!4v1723160995906!5m2!1sid!2sid"
               width={800}
               height={600}
               loading="lazy"

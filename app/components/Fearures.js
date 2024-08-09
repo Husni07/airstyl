@@ -19,7 +19,7 @@ const Fearures = () => {
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
   <div className="flex items-center w-full max-w-sm p-8 mx-auto overflow-hidden transition duration-300 rounded-md shadow-md hover:shadow-xl">
     <Image
-      src="/image/star.png"
+      src="/image/star.webp"
       alt=""
       draggable="false"
       width={500}
@@ -34,7 +34,7 @@ const Fearures = () => {
   
   <div className="flex items-center w-full max-w-sm p-8 mx-auto overflow-hidden transition duration-300 rounded-md shadow-md hover:shadow-xl">
     <Image
-      src="/image/beach.png"
+      src="/image/beach.webp"
       alt=""
       draggable="false"
       width={500}
@@ -49,7 +49,7 @@ const Fearures = () => {
   
   <div className="flex items-center w-full max-w-sm p-8 mx-auto overflow-hidden transition duration-300 rounded-md shadow-md hover:shadow-xl">
     <Image
-      src="/image/road.png"
+      src="/image/road.webp"
       alt=""
       draggable="false"
       width={500}

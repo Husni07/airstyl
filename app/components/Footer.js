@@ -11,7 +11,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="pt-36">
+    <footer id="footer" className="pt-36 container">
       <div className="px-6 pt-16 pb-8 mx-auto max-w-7xl sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-4 xl:gap-8">
           <div className="space-y-8">
@@ -27,7 +27,7 @@ const Footer = () => {
               <ul className="mt-4 space-y-2">
                 <li>
                   <a
-                    href="#"
+                    href="griya-merapi"
                     className="text-gray-700 text-md open-sans hover:text-purple-400"
                   >
                     Griya Merapi
@@ -35,7 +35,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="griya-papringan"
                     className="text-gray-700 text-md open-sans hover:text-purple-400"
                   >
                     Griya Papringan
@@ -43,7 +43,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="griya-iromaejan"
                     className="text-gray-700 text-md open-sans hover:text-purple-400"
                   >
                     Griya Iromejan
@@ -51,7 +51,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="griya-menjangan"
                     className="text-gray-700 text-md open-sans hover:text-purple-400"
                   >
                     Griya Menjangan
@@ -66,7 +66,7 @@ const Footer = () => {
               <ul className="mt-4 space-y-2">
                 <li>
                   <a
-                    href="#"
+                    href="villa-casa-grande"
                     className="text-gray-700 text-md open-sans hover:text-purple-400"
                   >
                     Exclusive casa Grande
@@ -74,7 +74,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#"
+                    href="pesona-sintuk"
                     className="text-gray-700 text-md open-sans hover:text-purple-400"
                   >
                     Pesona sintuk
@@ -131,17 +131,15 @@ const Footer = () => {
               </ul>
             </div>
           </div>
-          <div className="mt-16 xl:mt-0">
-            <h3 className="text-lg font-semibold text-gray-900 lora">
-              Hubungi Kami
-            </h3>
+          <div className="mt-16 xl:mt-0 mb-10 md:mb-0">
+            <h3 className="text-lg font-semibold lora">Hubungi Kami</h3>
             <form onSubmit={handleSubmit} className="flex flex-col mt-4">
               <input
                 type="text"
-                placeholder="Chat kami di WhatsApp"
+                placeholder="contact on WhatsApp"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
-                className="max-w-sm p-2 px-4 mb-4 bg-transparent border border-gray-900 rounded-full"
+                className="max-w-sm p-2 outline-purple-400 placeholder:text-gray-500  text-purple-400 px-4 mb-4 bg-transparent border border-gray-700 rounded-full"
                 required
               />
               <button
@@ -155,7 +153,8 @@ const Footer = () => {
         </div>
         <div className="pt-8 border-t-2 border-gray-300 sm:mt-12">
           <p className="leading-5 text-gray-500 text-md">
-            &copy; 2024 Airstayl, Inc. All rights reserved.
+            &copy; 2024 <span className="italic">airstayl.com</span> All rights
+            reserved.
           </p>
         </div>
       </div>
