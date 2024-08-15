@@ -151,7 +151,7 @@ const Header = () => {
           </div>
           <div className="hidden px-4 lg:flex">
             <Link
-              href="https://wa.me/6281292128595"
+              href="https://wa.me/6285866242248"
               target="_blank"
               className="w-1/2 px-6 py-3 mr-4 text-center text-white transition duration-300 ease-in-out rounded-full open-sans sm:w-fit bg-gradient-to-br from-purple-500 via-purple-500 to-purple-500 hover:bg-purple-200 hover:shadow-lg hover:opacity-80"
             >

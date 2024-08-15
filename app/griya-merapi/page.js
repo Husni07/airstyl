@@ -52,7 +52,7 @@ const page = () => {
             </h2>
             <div className="flex items-center gap-4">
               <Link
-                href="https://wa.me/6281292128595"
+                href="https://wa.me/6285866242248"
                 target="_blank"
                 className="px-6 py-3 text-center text-white transition duration-300 ease-in-out bg-purple-500 rounded-full open-sans w-fit hover:shadow-lg hover:opacity-80"
               >
