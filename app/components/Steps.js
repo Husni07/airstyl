@@ -6,8 +6,8 @@ const Steps = () => {
       <div className="container">
         <div className="items-center gap-8 px-4 py-8 md:grid md:grid-cols-2 lg:mt-24 xl:gap-16 sm:py-16">
           <div className="flex flex-col h-full text-left md:mt-0">
-            <h2 className="mb-4 text-3xl italic font-bold text-purple-400 playfair-display lg:text-4xl sm:text-4xl">
-              How the Stages Work
+            <h2 className="mb-4 text-3xl italic font-bold text-purple-500 playfair-display lg:text-4xl sm:text-4xl">
+              You can stay easier
             </h2>
             <p className="font-medium open-sans text-md text-secondary md:text-lg">
               Pesan tempat Anda hari ini dan nikmati pesona serta kenyamanan
@@ -83,7 +83,7 @@ const Steps = () => {
                 Payment & Confirmation
               </h3>
               <span className="text-sm text-gray-500 open-sans md:text-lg">
-                lakukan pembayaran dan bersiap untuk menikmati pengalaman
+                Lakukan pembayaran dan bersiap untuk menikmati pengalaman
                 menginap yang luar biasa di Airstayl
               </span>
             </div>

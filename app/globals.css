@@ -63,6 +63,7 @@ body {
 }
 
 .hamburger-line {
+  background-color: rgb(244 100 255) !important;
   @apply w-[30px] h-[2px] my-2 block bg-white;
 }
 

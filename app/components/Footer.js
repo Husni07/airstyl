@@ -6,7 +6,7 @@ const Footer = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    const whatsapp = `https://wa.me/6285866242248?text=p+bang%0A${message}`;
+    const whatsapp = `https://wa.me/6281292128595?text=${message}`;
     window.open(whatsapp, "_blank");
   };
 
@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="px-6 pt-16 pb-8 mx-auto max-w-7xl sm:pt-24 lg:px-8 lg:pt-32">
         <div className="xl:grid xl:grid-cols-4 xl:gap-8">
           <div className="space-y-8">
-            <h2 className="mb-4 text-3xl italic font-bold text-purple-400 playfair-display lg:text-4xl sm:text-4xl">
+            <h2 className="mb-4 text-3xl italic font-bold text-purple-500 playfair-display lg:text-4xl sm:text-4xl">
               Airstayl
             </h2>
           </div>
@@ -69,7 +69,7 @@ const Footer = () => {
                     href="villa-casa-grande"
                     className="text-gray-700 text-md open-sans hover:text-purple-400"
                   >
-                    Exclusive casa Grande
+                    Exclusive Casa Grande
                   </a>
                 </li>
                 <li>
@@ -77,7 +77,7 @@ const Footer = () => {
                     href="pesona-sintuk"
                     className="text-gray-700 text-md open-sans hover:text-purple-400"
                   >
-                    Pesona sintuk
+                    Pesona Sintuk
                   </a>
                 </li>
               </ul>
@@ -136,17 +136,17 @@ const Footer = () => {
             <form onSubmit={handleSubmit} className="flex flex-col mt-4">
               <input
                 type="text"
-                placeholder="contact on WhatsApp"
+                placeholder="Message me on WhatsApp"
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
-                className="max-w-sm p-2 outline-purple-400 placeholder:text-gray-500  text-purple-400 px-4 mb-4 bg-transparent border border-gray-700 rounded-full"
+                className="max-w-sm p-2 outline-gray-400 placeholder:text-gray-700 text-gray-800 px-4 mb-4 bg-transparent border border-gray-700 rounded-full"
                 required
               />
               <button
                 type="submit"
-                className="px-4 py-2 mr-4 text-white transition duration-300 ease-in-out rounded-full w-fit bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 hover:shadow-lg hover:opacity-80"
+                className="px-4 py-2 mr-4 text-white transition duration-300 ease-in-out rounded-full w-fit bg-gradient-to-br from-blue-500 via-purple-500 to-purple-500 hover:bg-purple-200 hover:shadow-lg hover:opacity-80"
               >
-                Submit
+                Contact
               </button>
             </form>
           </div>

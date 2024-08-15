@@ -7,18 +7,18 @@ const Video = () => {
       <div className="container">
         <div className="items-center gap-8 px-4 py-8 md:grid md:grid-cols-2 lg:mt-24 xl:gap-16 sm:py-16">
           <div className="flex flex-col h-full text-left md:mt-0">
-            <h2 className="mb-4 text-3xl italic font-bold text-purple-400 playfair-display lg:text-4xl sm:text-4xl">
-              Book a ticket and just leave.
+            <h2 className="mb-4 text-3xl italic font-bold text-purple-500 playfair-display lg:text-4xl sm:text-4xl">
+              Book and reservation
             </h2>
             <p className="font-medium open-sans text-md text-secondary md:text-lg">
-              Jelajahi, dan temukan pengalaman menginap dalam hidup Anda.
+              Jelajahi, dan temukan pengalaman menginap dalam hidup Anda
             </p>
           </div>
           <div className="hidden w-full px-4 md:flex md:justify-end">
             <Link
-              href="https://wa.me/"
+              href="https://wa.me/6281292128595"
               target="_blank"
-              className="px-6 py-3 text-center text-white transition duration-300 ease-in-out bg-black rounded-full open-sans w-fit hover:shadow-lg hover:opacity-80"
+              className="px-6 py-3 text-center text-white transition duration-300 ease-in-out bg-purple-500 rounded-full open-sans w-fit hover:shadow-lg hover:opacity-80"
             >
               Book Now
             </Link>

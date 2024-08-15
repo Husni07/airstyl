@@ -40,7 +40,7 @@ const page = () => {
         <div className="py-8 md:grid md:grid-cols-3 sm:py-16">
           <div className="flex flex-col h-full col-span-2 text-left md:mt-0">
             <Star />
-            <h2 className="mb-1 text-3xl italic font-bold text-purple-400 playfair-display lg:text-4xl sm:text-4xl">
+            <h2 className="mb-1 text-3xl italic font-bold text-purple-500 playfair-display lg:text-4xl sm:text-4xl">
               Griya Papringan
             </h2>
             <p className="font-medium open-sans text-sm md:w-[70%] flex flex-col">
@@ -49,15 +49,15 @@ const page = () => {
             </p>
           </div>
           <div className="flex justify-between w-full mt-4 md:justify-normal md:flex-col md:items-end sticky top-4">
-            <h2 className="mb-4 text-3xl font-bold text-purple-400 playfair-display lg:text-4xl sm:text-4xl">
+            <h2 className="mb-4 text-3xl font-bold text-purple-500 playfair-display lg:text-4xl sm:text-4xl">
               Rp. 990.000
               <span className="text-sm italic text-gray-600"> Per Night</span>
             </h2>
             <div className="flex items-center gap-4">
               <Link
-                href="https://wa.me/"
+                href="https://wa.me/6281292128595"
                 target="_blank"
-                className="px-6 py-3 text-center text-white transition duration-300 ease-in-out bg-black rounded-full open-sans w-fit hover:shadow-lg hover:opacity-80"
+                className="px-6 py-3 text-center text-white transition duration-300 ease-in-out bg-purple-500 rounded-full open-sans w-fit hover:shadow-lg hover:opacity-80"
               >
                 Book Now
               </Link>
@@ -89,10 +89,10 @@ const page = () => {
 
       <div className="items-center gap-8 px-4 py-8 md:grid xl:gap-16 sm:py-16">
         <div className="flex flex-col h-full text-left md:mt-0">
-          <h2 className="mb-4 text-3xl font-bold text-purple-400 playfair-display sm:text-4xl">
+          <h2 className="mb-4 text-3xl font-bold text-purple-500 playfair-display sm:text-4xl">
             About the Property
           </h2>
-          <p className="font-medium open-sans text-md text-secondary md:text-lg">
+          <p className="font-medium open-sans text-md text-secondary text-justify md:text-lg">
             Griya Papringan menawarkan pengalaman menginap yang mewah dan nyaman
             dengan berbagai fitur unggulan yang dirancang untuk memenuhi
             kebutuhan semua tamu. Terletak di lokasi strategis, homestay ini
@@ -111,7 +111,7 @@ const page = () => {
         <div className="container">
           <div className="items-center gap-8 px-4 py-8 md:grid md:grid-cols-2 lg:mt-24 xl:gap-16 sm:py-16">
             <div className="flex flex-col h-full text-left md:mt-0">
-              <h2 className="mb-4 text-3xl italic font-bold text-purple-400 playfair-display lg:text-4xl sm:text-4xl">
+              <h2 className="mb-4 text-3xl italic font-bold text-purple-500 playfair-display lg:text-4xl sm:text-4xl">
                 Visit Location
               </h2>
               <p className="font-medium open-sans text-sm md:w-[70%] flex flex-col">

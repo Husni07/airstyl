@@ -31,7 +31,7 @@ const ScrollToTop = () => {
       {isVisible && (
         <Link
           href="#top"
-          className="py-3 px-4 text-white bg-purple-400 rounded-full shadow-lg hover:opacity-80 focus:outline-none"
+          className="py-3 px-4 text-white bg-purple-500 rounded-full shadow-lg hover:opacity-80 focus:outline-none"
         >
           <FontAwesomeIcon icon={faArrowUp} className="w-4 h-4" />
         </Link>

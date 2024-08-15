@@ -58,7 +58,7 @@ function Slider() {
         style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
         className="w-full h-full duration-500 bg-center bg-cover"
       ></div>
-      <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-white">
+      <div className="absolute inset-0 flex flex-col items-center justify-center text-center text-whwite">
         <h1 className="mb-4 text-4xl italic font-bold montserrat md:text-7xl">
           Stay with Style
         </h1>
@@ -66,7 +66,7 @@ function Slider() {
         <Link
           href="#features"
           download
-          className="px-4 py-2 mt-5 text-center text-white transition duration-300 ease-in-out rounded-full lg:px-6 sm:w-fit bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-200 hover:shadow-lg hover:opacity-80"
+          className="px-4 py-2 mt-5 text-center text-white transition duration-300 ease-in-out rounded-full lg:px-6 sm:w-fit bg-gradient-to-br from-blue-500 via-purple-500 to-purple-500 hover:bg-slate-200 hover:shadow-lg hover:opacity-80"
         >
           Explore Now
         </Link>

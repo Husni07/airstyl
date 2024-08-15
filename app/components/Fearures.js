@@ -7,7 +7,7 @@ const Fearures = () => {
       <div className="container">
         <div className="items-center gap-8 px-4 py-8 md:grid md:grid-cols-2 lg:mt-24 xl:gap-16 sm:py-16">
           <div className="flex flex-col h-full text-left md:mt-0">
-            <h2 className="mb-4 text-3xl italic font-bold text-purple-400 playfair-display lg:text-4xl sm:text-4xl">
+            <h2 className="mb-4 text-3xl italic font-bold text-purple-500 playfair-display lg:text-4xl sm:text-4xl">
               Stay with Style, Live in Elegance.
             </h2>
             <p className="font-medium text-md text-secondary md:text-lg">
