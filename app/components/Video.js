@@ -16,8 +16,7 @@ const Video = () => {
           </div>
           <div className="hidden w-full px-4 md:flex md:justify-end">
             <Link
-              href="https://wa.me/6281292128595"
-              target="_blank"
+              href="/booking"
               className="px-6 py-3 text-center text-white transition duration-300 ease-in-out bg-purple-500 rounded-full open-sans w-fit hover:shadow-lg hover:opacity-80"
             >
               Book Now

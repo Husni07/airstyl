@@ -1,4 +1,3 @@
-// app/[slug]/page.js
 import React from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -8,14 +7,12 @@ import Features from "../../components/content/Features";
 import Star from "../../components/content/Star";
 
 const PropertyPage = ({ params }) => {
-  // Temukan data properti berdasarkan slug di URL
   const property = propertiesData.find((item) => item.slug === params.slug);
 
   if (!property) {
-    return notFound(); // Jika URL ga cocok file json, return halaman 404
+    return notFound();
   }
 
-  // Map array image ke objek sesuai kebutuhan props <Hero />
   const propertyImages = property.images.map((img) => ({ data: img }));
 
   return (
@@ -39,8 +36,7 @@ const PropertyPage = ({ params }) => {
             </h2>
             <div className="flex items-center gap-4">
               <Link
-                href={`https://wa.me/${property.whatsapp}`}
-                target="_blank"
+                href={`/booking?property=${property.slug}`}
                 className="px-6 py-3 text-center text-white transition duration-300 ease-in-out bg-purple-500 rounded-full open-sans w-fit hover:shadow-lg hover:opacity-80"
               >
                 Book Now

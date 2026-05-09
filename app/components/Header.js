@@ -26,7 +26,6 @@ const Header = () => {
       navMenu.classList.toggle("hidden");
     };
 
-    //klik diluar hamburger
     window.addEventListener("click", function (e) {
       if (e.target != hamburger && e.target != navMenu) {
         hamburger.classList.remove("hamburger-active");
@@ -89,7 +88,7 @@ const Header = () => {
                   <ul className="top-0 ml-3 transform rounded-lg lg:absolute lg:hidden lg:left-1/2 lg:-translate-x-1/2 lg:w-72 lg:group-hover:block bg-slate-200 lg:py-2 w-fit lg:top-full">
                     <li>
                       <Link
-                        href="villa-casa-grande"
+                        href="/property/villa-casa-grande"
                         className="block mx-8 text-purple-400 hover:translate-x-2 duration-100 open-sans lg:py-2 hover:text-purple-600"
                       >
                         Villa Exclusive Casa Grande
@@ -97,7 +96,7 @@ const Header = () => {
                     </li>
                     <li>
                       <Link
-                        href="pesona-sintuk"
+                        href="/property/pesona-sintuk"
                         className="block mx-8 text-purple-400 hover:translate-x-2 duration-100 open-sans lg:py-2 hover:text-purple-600"
                       >
                         Villa Pesona Sintuk
@@ -105,7 +104,7 @@ const Header = () => {
                     </li>
                     <li>
                       <Link
-                        href="griya-merapi"
+                        href="/property/griya-merapi"
                         className="block mx-8 text-purple-400 hover:translate-x-2 duration-100 open-sans lg:py-2 hover:text-purple-600"
                       >
                         Griya Merapi
@@ -113,7 +112,7 @@ const Header = () => {
                     </li>
                     <li>
                       <Link
-                        href="griya-papringan"
+                        href="/property/griya-papringan"
                         className="block mx-8 text-purple-400 hover:translate-x-2 duration-100 open-sans lg:py-2 hover:text-purple-600"
                       >
                         Griya Papringan
@@ -121,7 +120,7 @@ const Header = () => {
                     </li>
                     <li>
                       <Link
-                        href="griya-iromejan"
+                        href="/property/griya-iromejan"
                         className="block mx-8 text-purple-400 hover:translate-x-2 duration-100 open-sans lg:py-2 hover:text-purple-600"
                       >
                         Griya Iromejan
@@ -129,7 +128,7 @@ const Header = () => {
                     </li>
                     <li>
                       <Link
-                        href="griya-menjangan"
+                        href="/property/griya-menjangan"
                         className="block mx-8 text-purple-400 hover:translate-x-2 duration-100 open-sans lg:py-2 hover:text-purple-600"
                       >
                         Griya Menjangan

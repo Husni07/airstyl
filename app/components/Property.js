@@ -32,7 +32,7 @@ const Property = () => {
                   className="absolute duration-300 rounded-lg -z-10 group-hover:scale-105 trasition"
                 />
                 <Link
-                  href={`/properties/${property.slug}`}
+                  href={`/property/${property.slug}`}
                   className="p-2 px-4 mx-5 -mb-4 text-white bg-purple-500 rounded-full open-sans hover:bg-purple-400 focus:outline-none focus:bg-purple-400"
                 >
                   Lihat

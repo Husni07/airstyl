@@ -100,7 +100,7 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="https://instagram.com"
+                    href="https://instagram.com/husni.ct"
                     className="text-gray-700 text-md open-sans hover:text-purple-400"
                     target="_blank"
                     rel="noopener noreferrer"
